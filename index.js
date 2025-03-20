@@ -13,7 +13,7 @@ import dashboardRouter from './routes/dashboard.js'
 connectToDatabase()
 const app = express()
 app.use(cors({
-    origin: "https://employee-frontend-pearl.vercel.app/",
+    origin: "https://employee-frontend-pearl.vercel.app",
     credentials: true
 }))
 app.use(express.json())
